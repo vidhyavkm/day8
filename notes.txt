@@ -1,0 +1,48 @@
+Map, Reduce , Filter
+map()
+
+map always takes a function as an argument.
+this method is used for creating a new array.
+it always returns a new array.
+map doesnt change the length of the array
+it works on each and every index or element of an array.
+
+syntax:
+let name = varname.map(function){return}
+we can use any function , but for code simplification developers use arrow function.
+
+filter:
+if i want to extract some particular data from an array or array ogf objects , i can use filter
+this is also takes a function as a parameter
+this is also returns the elements from original array
+filter will change the length of a array.
+it works on each and every index or element of an array.
+it should always have a condition
+
+
+Reduce:
+it helps to reduce the array into a single element.
+this also takes function as a parameter
+inside the function we have 2 parameters.
+accumulator = initialvalue, currentvalue
+it will works on each and every element in an array
+
+case:1
+if we dont give initialvalue
+
+case2:
+if i fix initialvalue , it will take last index as currentvalue.
+
+foreach: (map)
+
+it is also needs an array,
+this is an alternative to for loop.
+it is also takes function as a parameter.
+apply on each and every element
+it returns undefined.
+we can use for each for getting output tin a sepearte line.
+
+syntax: foreach(curr,index){
+
+}
+.foreach(num=>)
